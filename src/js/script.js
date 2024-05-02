@@ -41,3 +41,11 @@ function listarTarefas(){
     }
     document.getElementById("lista").innerHTML=valor;
 }
+
+// função remover tarefa
+
+function removerTarefa(){
+    // pop - remove a última linha adicionada 
+    tarefas.pop();
+    listarTarefas();
+}
